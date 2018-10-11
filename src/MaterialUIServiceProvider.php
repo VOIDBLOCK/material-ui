@@ -35,7 +35,7 @@ class MaterialUIServiceProvider extends ServiceProvider
             array_push(Admin::$baseJs, $vendor_path.'MaterialAdminLTE/dist/js/material.min.js',
                 $vendor_path.'MaterialAdminLTE/dist/js/ripples.min.js');
 
-            Admin::script('$.material.init()');
+            Admin::script('$.material.init();');
         });
 
 
